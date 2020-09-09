@@ -1,0 +1,23 @@
+{
+    "SchemaVersion": 1,
+    "Name": "modbus_test_v5",
+    "ComponentId": "1455dff4-809f-4a73-89db-f84e32b08ae9",
+    "EntryPoint": "/bin/app",
+    "CmdArgs": [],
+    "DeviceAuthentication": "",
+    "Capabilities": {
+        "WifiConfig": true,
+        "NetworkConfig": true,
+        "Gpio": [
+            "$SAMPLE_AILINK_LED1_RED",
+            "$SAMPLE_AILINK_LED1_GREEN",
+            "$SAMPLE_AILINK_LED1_BLUE",
+            "$SAMPLE_AILINK_LED2_RED",
+            "$SAMPLE_AILINK_LED2_GREEN",
+            "$SAMPLE_AILINK_LED2_BLUE",
+            "$SAMPLE_AILINK_UART_ENABLE"
+        ],
+        "Uart": [ "$SAMPLE_AILINK_UART1" ]
+    },
+    "ApplicationType": "Default"
+}
